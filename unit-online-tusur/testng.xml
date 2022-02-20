@@ -9,7 +9,7 @@
     
   </test> <!-- Test -->
   
-  <test name="Test2" parallel="instances" thread-count="3">
+  <test name="Test2" parallel="methods" thread-count="3">
   
     <classes>
       <class name="online_tusur.unit_online_tusur.TestNGFactory"/>
